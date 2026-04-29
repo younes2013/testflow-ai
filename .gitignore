@@ -1,0 +1,84 @@
+# ============================================================
+# .NET
+# ============================================================
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Entity Framework migrations (keep the folder, ignore nothing — migrations are committed)
+
+# Test results
+TestResults/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+
+# Secrets & config overrides
+appsettings.Local.json
+appsettings.*.local.json
+*.pfx
+*.p12
+secrets.json
+
+# ============================================================
+# React / Node
+# ============================================================
+
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Env files (keep .env.example, ignore actual env)
+.env
+.env.local
+.env.*.local
+
+# Vite
+.vite/
+
+# ESLint cache
+.eslintcache
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# ============================================================
+# OS & editors
+# ============================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Docker
+# ============================================================
+
+# Keep docker-compose.yml but ignore local override
+docker-compose.override.yml
